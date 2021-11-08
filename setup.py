@@ -1,6 +1,8 @@
 import os
 import sys
-from setuptools import setup, find_packages
+
+from distutils.core import setup
+from setuptools import find_packages
 
 print("Installing mjrl. \n Package intended for use with provided conda env. See setup instructions here: https://github.com/aravindr93/mjrl/tree/master/setup")
 
